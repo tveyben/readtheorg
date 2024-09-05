@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-09-05 Thu 14:08 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Test of ORG to Sphinx like documentation</title>
+<meta name="author" content="Thomas von Eyben" />
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Test of ORG to Sphinx like documentation</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgbcfc094">1. Introductionen</a>
+<ul>
+<li><a href="#orgbe23988">1.1. Første undersektion</a></li>
+<li><a href="#orgb184383">1.2. Anden undersektionMere beskrivelse</a></li>
+<li><a href="#orge13f28d">1.3. Og den tredie</a></li>
+</ul>
+</li>
+<li><a href="#orgd7a0711">2. Note to self</a></li>
+<li><a href="#orga6e0293">3. Test af links</a>
+<ul>
+<li><a href="#org61ffbdc">3.1. Andet sted</a></li>
+<li><a href="#my-custom-id">3.2. Tredie sted, test med DRAWER</a></li>
+</ul>
+</li>
+<li><a href="#org415adcb">4. Nomenclature</a>
+<ul>
+<li><a href="#org3f8aa1e">4.1. ACS</a>
+<ul>
+<li><a href="#org18fffb1">4.1.1. The ACS server itself</a></li>
+<li><a href="#org23c5168">4.1.2. Attributes used by the ACS server</a></li>
+<li><a href="#org72603dd">4.1.3. The other item</a></li>
+<li><a href="#org059c4d2">4.1.4. The third element</a></li>
+</ul>
+</li>
+<li><a href="#orgf7ab7cc">4.2. Fileserver</a>
+<ul>
+<li><a href="#org89a146b">4.2.1. FSRV level2</a>
+<ul>
+<li><a href="#org3810bdd">4.2.1.1. LVL3</a>
+<ul>
+<li><a href="#orgba683a7">4.2.1.1.1. LVL4</a>
+<ul>
+<li><a href="#org1c7c959">4.2.1.1.1.1. LVL5</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org7070291">4.3. General</a></li>
+</ul>
+</li>
+<li><a href="#orgac45cd6">5. Her er Sannes afsnit</a></li>
+</ul>
+</div>
+</div>
+<p>
+The original link, lets try to make the file available locally in stead ^<br />
++setupfile: <a href="https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup">https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup</a><br />
+</p>
+<div id="outline-container-orgbcfc094" class="outline-2">
+<h2 id="orgbcfc094"><span class="section-number-2">1.</span> Introductionen</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+Hermed introduceres dokumentaionen for systemet!<br />
+rettes<br />
+</p>
+</div>
+<div id="outline-container-orgbe23988" class="outline-3">
+<h3 id="orgbe23988"><span class="section-number-3">1.1.</span> Første undersektion</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Her er beskrivelsen<br />
+Som nu er opdateret mere - hold kæft jeg er god<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orgb184383" class="outline-3">
+<h3 id="orgb184383"><span class="section-number-3">1.2.</span> Anden undersektionMere beskrivelse</h3>
+</div>
+
+<div id="outline-container-orge13f28d" class="outline-3">
+<h3 id="orge13f28d"><span class="section-number-3">1.3.</span> Og den tredie</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+hvor der også er skrevet<br />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgd7a0711" class="outline-2">
+<h2 id="orgd7a0711"><span class="section-number-2">2.</span> Note to self</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+auto export line only works is placed a tfirst line and using the <code>-*-...-*-</code> syntax, the <code>Local Variables ... end:</code> does not work<br />
+JO - men locale variabler skal være i bunden<br />
+<a href="https://www.gnu.org/software/emacs/manual/html_node/emacs/Specifying-File-Variables.html">https://www.gnu.org/software/emacs/manual/html_node/emacs/Specifying-File-Variables.html</a><br />
+sådan!!!<br />
+</p>
+</div>
+</div>
+<div id="outline-container-orga6e0293" class="outline-2">
+<h2 id="orga6e0293"><span class="section-number-2">3.</span> Test af links</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Kan jeg linke tilbage til denne sektion fra et andet sted<br />
+</p>
+</div>
+<div id="outline-container-org61ffbdc" class="outline-3">
+<h3 id="org61ffbdc"><span class="section-number-3">3.1.</span> Andet sted</h3>
+<div class="outline-text-3" id="text-3-1">
+<p>
+Dette er så det såkaldte andet sted <a href="#orga6e0293">Test af links tilrettet</a><br />
+Her et link til en custom proporti baseret link<br />
+</p>
+</div>
+</div>
+<div id="outline-container-my-custom-id" class="outline-3">
+<h3 id="my-custom-id"><span class="section-number-3">3.2.</span> Tredie sted, test med DRAWER</h3>
+<div class="outline-text-3" id="text-my-custom-id">
+<p>
+Her er så indholde i et afsnit der har en drawer<br />
+Mere <a href="http:dr.dk">indhold</a> her<br />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org415adcb" class="outline-2">
+<h2 id="org415adcb"><span class="section-number-2">4.</span> Nomenclature</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org3f8aa1e" class="outline-3">
+<h3 id="org3f8aa1e"><span class="section-number-3">4.1.</span> ACS</h3>
+<div class="outline-text-3" id="text-4-1">
+</div>
+<div id="outline-container-org18fffb1" class="outline-4">
+<h4 id="org18fffb1"><span class="section-number-4">4.1.1.</span> The ACS server itself</h4>
+<div class="outline-text-4" id="text-4-1-1">
+<p>
+The actual server<br />
+VM<br />
+Er i et datacenter<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org23c5168" class="outline-4">
+<h4 id="org23c5168"><span class="section-number-4">4.1.2.</span> Attributes used by the ACS server</h4>
+<div class="outline-text-4" id="text-4-1-2">
+<p>
+Stuff<br />
+</p>
+<ul class="org-ul">
+<li>this item<br /></li>
+<li>that item<br /></li>
+<li>something else item ss<br /></li>
+</ul>
+<ul class="org-ul">
+<li><p>
+Build_type<br />
+A or B<br />
+</p>
+<div class="tip" id="org68ebbcd">
+<p>
+Dette er et tip - se også et andet sted<br />
+</p>
+
+</div></li>
+<li></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org72603dd" class="outline-4">
+<h4 id="org72603dd"><span class="section-number-4">4.1.3.</span> The other item</h4>
+<div class="outline-text-4" id="text-4-1-3">
+<p>
+blablabla<br />
+</p>
+</div>
+</div>
+<div id="outline-container-org059c4d2" class="outline-4">
+<h4 id="org059c4d2"><span class="section-number-4">4.1.4.</span> The third element</h4>
+<div class="outline-text-4" id="text-4-1-4">
+<ol class="org-ol">
+<li>item one<br /></li>
+<li>second<br /></li>
+<li>third<br /></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf7ab7cc" class="outline-3">
+<h3 id="orgf7ab7cc"><span class="section-number-3">4.2.</span> Fileserver</h3>
+<div class="outline-text-3" id="text-4-2">
+</div>
+<div id="outline-container-org89a146b" class="outline-4">
+<h4 id="org89a146b"><span class="section-number-4">4.2.1.</span> FSRV level2</h4>
+<div class="outline-text-4" id="text-4-2-1">
+<p>
+text<br />
+</p>
+</div>
+<div id="outline-container-org3810bdd" class="outline-5">
+<h5 id="org3810bdd"><span class="section-number-5">4.2.1.1.</span> LVL3</h5>
+<div class="outline-text-5" id="text-4-2-1-1">
+<p>
+text<br />
+</p>
+</div>
+<div id="outline-container-orgba683a7" class="outline-6">
+<h6 id="orgba683a7"><span class="section-number-6">4.2.1.1.1.</span> LVL4</h6>
+<div class="outline-text-6" id="text-4-2-1-1-1">
+<p>
+tct mere tekst<br />
+</p>
+</div>
+<div id="outline-container-org1c7c959" class="outline-7">
+<h7 id="org1c7c959"><span class="section-number-7">4.2.1.1.1.1.</span> LVL5</h7>
+<div class="outline-text-7" id="text-4-2-1-1-1-1">
+<p>
+Sidste der håndteres<br />
+</p>
+</div>
+<ol class="org-ol">
+<li><a id="orge65099d"></a>LVL6<br />
+<div class="outline-text-8" id="text-4-2-1-1-1-1-1">
+<p>
+Hvad sker der så???<br />
+</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org7070291" class="outline-3">
+<h3 id="org7070291"><span class="section-number-3">4.3.</span> General</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+A long paragraph (to trigger scroll bars)<br />
+The standard Lorem Ipsum passage, used since the 1500s<br />
+&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&rdquo;<br />
+</p>
+
+<p>
+Section 1.10.32 of &ldquo;de Finibus Bonorum et Malorum&rdquo;, written by Cicero in 45 BC<br />
+&ldquo;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&rdquo;<br />
+</p>
+
+<p>
+1914 translation by H. Rackham<br />
+&ldquo;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&rdquo;<br />
+</p>
+
+<p>
+Section 1.10.33 of &ldquo;de Finibus Bonorum et Malorum&rdquo;, written by Cicero in 45 BC<br />
+&ldquo;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&rdquo;<br />
+</p>
+
+<p>
+1914 translation by H. Rackham<br />
+&ldquo;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.&rdquo;dfhg<br />
+</p>
+
+<p>
+fghj<br />
+</p>
+
+<p>
+The standard Lorem Ipsum passage, used since the 1500s<br />
+</p>
+
+<p>
+The standard Lorem Ipsum passage, used since the 1500s<br />
+&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&rdquo;<br />
+</p>
+
+<p>
+Section 1.10.32 of &ldquo;de Finibus Bonorum et Malorum&rdquo;, written by Cicero in 45 BC<br />
+&ldquo;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&rdquo;<br />
+</p>
+
+<p>
+1914 translation by H. Rackham<br />
+&ldquo;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&rdquo;<br />
+</p>
+
+<p>
+Section 1.10.33 of &ldquo;de Finibus Bonorum et Malorum&rdquo;, written by Cicero in 45 BC<br />
+&ldquo;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&rdquo;<br />
+</p>
+
+<p>
+1914 translation by H. Rackham<br />
+&ldquo;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.&rdquo;dfhg<br />
+</p>
+
+<p>
+The standard Lorem Ipsum passage, used since the 1500s<br />
+&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&rdquo;<br />
+</p>
+
+<p>
+Section 1.10.32 of &ldquo;de Finibus Bonorum et Malorum&rdquo;, written by Cicero in 45 BC<br />
+&ldquo;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&rdquo;<br />
+</p>
+
+<p>
+1914 translation by H. Rackham<br />
+&ldquo;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&rdquo;<br />
+</p>
+
+<p>
+Section 1.10.33 of &ldquo;de Finibus Bonorum et Malorum&rdquo;, written by Cicero in 45 BC<br />
+&ldquo;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&rdquo;<br />
+</p>
+
+<p>
+1914 translation by H. Rackham<br />
+&ldquo;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.&rdquo;dfhg<br />
+</p>
+
+<p>
+The standard Lorem Ipsum passage, used since the 1500s<br />
+&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&rdquo;<br />
+</p>
+
+<p>
+Section 1.10.32 of &ldquo;de Finibus Bonorum et Malorum&rdquo;, written by Cicero in 45 BC<br />
+&ldquo;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&rdquo;<br />
+</p>
+
+<p>
+1914 translation by H. Rackham<br />
+&ldquo;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&rdquo;<br />
+</p>
+
+<p>
+Section 1.10.33 of &ldquo;de Finibus Bonorum et Malorum&rdquo;, written by Cicero in 45 BC<br />
+&ldquo;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&rdquo;<br />
+</p>
+
+<p>
+1914 translation by H. Rackham<br />
+&ldquo;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.&rdquo;dfhg<br />
+</p>
+
+<p>
+The standard Lorem Ipsum passage, used since the 1500s<br />
+&ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&rdquo;<br />
+</p>
+
+<p>
+Section 1.10.32 of &ldquo;de Finibus Bonorum et Malorum&rdquo;, written by Cicero in 45 BC<br />
+&ldquo;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?&rdquo;<br />
+</p>
+
+<p>
+1914 translation by H. Rackham<br />
+&ldquo;But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?&rdquo;<br />
+</p>
+
+<p>
+Section 1.10.33 of &ldquo;de Finibus Bonorum et Malorum&rdquo;, written by Cicero in 45 BC<br />
+&ldquo;At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.&rdquo;<br />
+</p>
+
+<p>
+1914 translation by H. Rackham!<br />
+&ldquo;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains.&rdquo;dfhg<br />
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-orgac45cd6" class="outline-2">
+<h2 id="orgac45cd6"><span class="section-number-2">5.</span> Her er Sannes afsnit</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+Med en masse fint indhold<br />
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Thomas von Eyben</p>
+<p class="date">Created: 2024-09-05 Thu 14:08</p>
+</div>
+</body>
+</html>
